@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Configuración e información de la página para el navegador-->
+        <title>Tafifas HTML</title>
+        <link rel="shortcut icon" href="logo_1.png"
+            type="image/x-icon">
+        <meta http-equiv="text/html;charset=UTF-8">
+        <meta http-equiv="text/html;charset=UTF-8">
+        <!--<link rel="stylesheet" href="css/estilo_francy.css"> -->
+        
+        <style>
+            .window-notice {
+                background: rgba(33, 41, 52, .85);
+                left: 0;
+                bottom: 0;
+                right: 0;
+                top: 0;
+                display: flex;
+                position: fixed;
+                z-index: 999;
+                }
+            
+            .window-notice .content {
+                background: #fff;
+                border-radius: 2px;
+                box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+                box-sizing: content-box;
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                max-width: 600px;
+                min-width: 320px !important;
+                overflow: hidden;
+                position: relative;
+                width: 100%;
+                padding: 2rem;
+                font-size: 1.3rem;
+                }
+
+            body{
+                /* comentario */
+                background-color: rgb(226,236,233) ;
+                display: grid;
+                grid-template-columns: 300px 1fr;
+                grid-template-rows: 80px 30px 200px 1fr 1fr;
+                height: 100vh;
+                row-gap: 16px;
+                column-gap : 16px;
+                
+                }   
+            .modelo_texto{
+                text-align: justify;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:14px;
+                }
+            header{
+                grid-column:1 / span 1;
+                text-align: center;
+                }
+            section{
+                /*font-family:Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-size: 20px;*/
+                font-weight: bold;
+                padding-top: 20px;
+                padding-left: 300px;
+                }
+            nav{
+                grid-column:1 / span 2;
+                background-image:url("img/imagen_recepcions.png");
+                background-repeat: no-repeat;
+                display: flex;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+                text-align:left;
+                padding-top: 20px;
+                padding-right: 30px;
+                }
+
+            aside{
+                background-color: #a0a3aa;
+                grid-column: 1 / 3; 
+                text-align:right
+                }
+           
+            .aside-enlace{
+                display:inline-block;
+                background: rgb(102, 102, 211);   
+                color:#fff ;
+                padding: 0.3125rem 1.875rem;
+                text-decoration: none;
+                }
+
+             main{
+                grid-column:1/ span2;
+                padding-left: 200px;
+                display:inline;
+                display: grid;
+                grid-template-columns: 450px 350px;
+                grid-template-rows: 250px 250px 250px 250px;
+                padding-top: 20px;
+                padding-right:30px;
+                }
+                
+            footer{
+                grid-column:1/2;
+                background-color: #a0a3aa;
+                display:inline-block;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            
+            <img width="150px" src="img/logo_1.png" alt="Logo"/>                     
+            
+        </header>
+        <section>
+            <font size="6" color="#46586C" face="baskerville old face">
+                TARIFAS
+            </font>
+        </section>
+        
+        <aside>
+            <a href="reserva.html" class="aside-enlace"><font size="4" color= "white" face="Arial Rounded MT bold">Reserva</font></a>
+            <font class="aside-enlace">Tarifas</font>
+            <a href="consulta_reserva.html" class="aside-enlace"><font size="4" color= "white" face="Arial Rounded MT bold">Consulta Tu Reserva</font></a>
+            <a href="Galeria.html" class="aside-enlace" ><font size="4" color= "white" face="Arial Rounded MT bold">Galeria</font></a>
+            <a href="admin.html" class="aside-enlace"><font size="4" color= "white" face="Arial Rounded MT bold">Administración</font></a>
+        </aside>
+        <nav></nav>
+        <main>
+            <img width="300px" src="img/HSencilla.png" alt="Habitación sencilla"/>                     
+            
+            <table>
+                <thead> 
+                    <tr>
+                        <th><font size="5" color= "#A0A3AA" face="Arial Rounded MT bold">HABITACION SENCILLA</font></th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class=modelo_texto>
+                                Las habitaciones sencillas de Sabana Plaza Hotel Boutique estan diseñadas para acoger a 1 huésped.
+                                De estilo urbano y muy funcionales, son habitaciones ideales para una escapada cultural o de 
+                                compras en Bogotá.
+                                
+                            </p>
+                            <p class=modelo_texto>
+                                PRECIO $300.000
+                            </p>
+                            <button type="button"> Ver Disponibilidad
+            <!--                    <a href="#" target="_blank">Mas Detalles</a>-->
+                            </button>
+                        </td> 
+                    </tr>
+                </tbody> 
+                
+            </table>
+
+            
+            <img width="300px" src="img/HDoble.png" alt="Habitación doble"/>                     
+            <table>
+                <thead> 
+                    <tr>
+                        <th><font size="5" color= "#A0A3AA" face="Arial Rounded MT bold">HABITACION DOBLE</font></th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class=modelo_texto>
+                                Las habitaciones dobles de Sabana Plaza Hotel Boutique brindan la ventaja de disfrutar de un espacio ideal para compartir cómodamente 
+                                durante un viaje de negocios o una visita a Bogotá, ofrecen 2 camas gemelas, wifi gratis, mesita auxiliar para 2 y artículos de aseo.
+                                
+                            </p>
+                            <p class=modelo_texto>
+                                PRECIO $200.000
+                            </p>
+                            <button type="button"> Ver Disponibilidad
+            <!--                    <a href="#" target="_blank">Mas Detalles</a>-->
+                            </button>
+                        </td> 
+                    </tr>
+                </tbody>    
+            </table>
+
+            
+            <img width="300px" src="img/HMatrimonial.png" alt="Habitación matrimonial"/>                     
+            <table>
+                <thead> 
+                    <tr>
+                        <th><font size="5" color= "#A0A3AA" face="Arial Rounded MT bold">HABITACION MATRIMONIAL</font></th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class=modelo_texto>
+                                Las habitaciones matrimoniales de Sabana Plaza Hotel Boutique brindan la ventaja de disfrutar de un espacio ideal para compartir
+                                en pareja, ofrecen 1 camas dobles, wifi gratis, menú de almohadas, reloj despertador, cargador para iPhone.
+                                
+                            </p>
+                            <p class=modelo_texto>
+                                PRECIO $200.000
+                            </p>
+                            <button type="button"> Ver Disponibilidad
+            <!--                    <a href="#" target="_blank">Mas Detalles</a>-->
+                            </button>
+                        </td> 
+                    </tr>
+                </tbody>    
+            </table>
+
+            <img width="300px" src="img/HMultiple.png" alt="Habitación múltiple"/>                     
+            <table>
+                <thead> 
+                    <tr>
+                        <th><font size="5" color= "#A0A3AA" face="Arial Rounded MT bold">HABITACION MULTIPLE</font></th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class=modelo_texto>
+                                Las habitaciones múltiples de Sabana Plaza Hotel Boutique son habitaciones familiares para entre 1 y 4 personas. 
+                                Todas cuentan con 2 camas King y semidoble, baño privado y secadora de cabello, Crean un confortable ambiente para 
+                                que su familia se sienta como en casa.
+                            </p>
+                            <p class=modelo_texto>
+                                PRECIO $150.000
+                            </p>
+                            <button type="button"> Ver Disponibilidad
+            <!--                    <a href="#" target="_blank">Mas Detalles</a>-->
+                            </button>
+                        </td> 
+                    </tr>
+                </tbody>    
+            </table>
+
+                        
+        </main>
+                
+        
+        <footer>
+            Sabana Plaza Hotel Boutique
+        </footer>
+        
+    </body>    
+</html>
