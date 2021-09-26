@@ -1,0 +1,120 @@
+
+.logo{
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    vertical-align: middle;
+}
+
+.boton{
+    cursor: pointer;
+    padding: 6px;
+    margin-left: 43%;
+    margin-bottom: 5%;
+    display: inline-block;
+    background-color: #46586C;
+    color: white;
+    font-family: arial rounded MT;
+    font-weight: bold;
+    font-size: 16pt;
+    text-decoration: none;
+    width: 220px;
+    text-align: center;
+}
+
+.centrar{
+    margin: auto;
+    margin-top: 8px;
+    display: block;
+}
+
+.centrar1{    
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: block;
+    color:black;
+    font-family: arial rounded MT;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.fondo_gris_oscuro1{
+    background-color: #46586C;
+    color: white;
+    font-family: arial rounded MT;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.fondo_gris_oscuro2{
+    background-color: #46586C;
+    color: white;
+    font-family: arial rounded MT;
+    font-weight: bold;
+    font-size: 10.5pt;
+}
+
+.fondo_gris_oscuro3{
+    background-color: #46586C;
+    color: white;
+    font-family: arial rounded MT;
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+}
+
+.fondo_amarillo{
+    background-color:#E1B91B;
+    color: #63758B;
+    font-family: arial rounded MT;
+    font-size: 10pt;   
+    display: inline-block; 
+}
+
+.bloque{
+    color:#A0A3AA;
+    font-family: arial rounded MT;
+    font-size: 10pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo{
+    display: inline; 
+    margin-left: 35%;
+    margin-top: 0.5%;
+    font-family:Baskerville old face;    
+    font-size: 30px;
+    color:#46586C;
+}
+
+.titulo1{
+    display: inline; 
+    margin-left: 25%;
+    margin-top: 0.5%;
+    font-family:Baskerville old face;    
+    font-size: 30px; 
+    color:#46586C;
+}
+
+.footer{
+    background-color: #a0a3aa;
+    color:white; 
+    font-family:arial Rounded MT;
+    font-size: 16px;
+    font-weight: bold; 
+    text-align: center;
+}
+
+.nav-enlace{
+    display:inline-block;
+    background: rgb(102, 102, 211);   
+    color:#fff ; 
+    padding: 0.3125rem 1.875rem;
+    text-decoration: none;
+    font-family:arial Rounded MT;
+    font-size: 16px;
+    font-weight: bold;     
+}
+

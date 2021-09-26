@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <title>Reserva</title>
+
+<style>
+
+    header{
+        background: #E2ECE9;
+    }
+
+    footer{
+        background: #E2ECE9;        
+    }
+
+    main{
+        background: #E2ECE9;
+    }
+
+    main h2{
+        padding-top: 0.5%;
+        padding-left: 2%;
+        padding-bottom: 0%;
+        margin-top: 0.5%;
+        margin-left: 12%;
+        margin-right: 12%;
+        margin-bottom: 0%;
+    }
+
+    main h3{
+        padding-top: 1%;
+        padding-left: 2%;
+        padding-bottom: 1%;
+        padding-right: 2%;
+        margin-top: 0%;
+        margin-left: 12%;
+        margin-right: 12%;
+        margin-bottom: 1%;
+    }
+
+    main div{
+        font-family: arial rounded MT;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding-right: 1%;
+        background: #E2ECE9;
+    }
+
+    main div label{
+        margin-left: 5%;
+        margin-right: 2.5%;
+        font-family: arial rounded MT;
+        font-size: 16px;
+        font-weight: bold;
+    }
+ 
+    main div input{
+        margin-left: 4.5%;
+        margin-right: 1.7%;
+        margin-bottom: 2%;
+    }
+
+    main div select{
+        margin-left: 4.5%;
+        margin-right: 1.7%;
+        margin-bottom: 1.5%;
+    }
+
+    main table{
+        margin-left: 15%;      
+    }
+
+    main a :hover{
+        background-color: #0000ff;
+    }
+
+    nav{
+    margin-top: 0.5%;
+    background-color: #a0a3aa;
+    text-align:right
+    }
+
+</style>
+
+</head>
+<body>
+    <header>
+    <img width="150px" class="logo" src="img/logo_1.png" alt="Logo"/> 
+    <h1 class="titulo">RESERVA</h1>      
+    </header>
+
+    <nav>       
+        <a href="reserva.html" class="nav-enlace">Reserva</a>
+        <a href="tarifas.html" class="nav-enlace">Tarifa</a>
+        <a href="consulta_reserva.html" class="nav-enlace">Consulta tu reserva</a>
+        <a href="Galeria.html" class="nav-enlace" >Galeria</a>
+        <a href="admin.html" class="nav-enlace">Administración</a>   
+    </nav>
+
+    <main>
+        <img class="centrar" width="100%" src="img/imagen_recepcion1.png" alt="Recepción Hotel"/>              
+        <h2 class="fondo_gris_oscuro1">Características del Hotel</h2>
+        <h3 class="fondo_gris_oscuro2">Nuestro hotel en Bogotá le ofrece servicios de restaurant, lobby bar,
+            spa con sauna y masajes, servicio de habitaciones, gimnasio, parqueadero,
+             traslados al aeropuerto y wifi gratuito.</h4>   
+            
+        <form action="#" method="post"></form>  
+            <div>          
+            <label for="nombre">Nombre y Apellido</label>
+            <label for="fechaent">Fecha de Entrada</label>
+            <label for="fechasal">Fecha de Salida</label>
+            <label for="acomodacion">Habitaciones</label>
+            <label for="huesped">Huéspedes</label>
+            <label for="tipohab">Tipo de Habitación</label> 
+            </div>            
+
+            <div>
+            <input class="fondo_amarillo" type="text" name="nombre" placeholder="Escriba su nombre y apellido"/>                       
+            <input class="fondo_amarillo" type="date" name="fechaentrada">             
+            <input class="fondo_amarillo" type="date" name="fechasalida">             
+                <select class="fondo_amarillo" name="habitacion"> 
+                    <option value="1">1 habitación</option>
+                    <option value="2">2 habitaciones</option>
+                    <option value="3">3 habitaciones</option>
+                </select>            
+                <select class="fondo_amarillo" name="huesped">
+                    <option value="1">1 huésped</option>
+                    <option value="2">2 huéspedes</option>
+                    <option value="3">3 huéspedes</option>
+                    <option value="4">4 huéspedes</option>
+                </select>             
+                <select class="fondo_amarillo" name="tipohab">
+                    <option value="1">Sencilla</option>
+                    <option value="2">Doble Individual</option>
+                    <option value="3">Doble Matrimonial</option>
+                    <option value="4">Múltiple</option>
+                </select> 
+            </div>
+                <a href="resumen.html" class="boton" type="button">Reserva aquí</a>       
+                       
+         </form>     
+
+    </main>    
+</body>
+<footer class="footer">Sabana Plaza Hotel Boutique</footer>
+</html>
