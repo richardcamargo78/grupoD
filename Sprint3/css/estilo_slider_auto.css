@@ -1,0 +1,130 @@
+/* header a h1{
+    
+    font:small-caps; 
+    text-align:center;
+    display: inline; 
+  }    */
+  body{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 100px; 
+    /* grid-template-columns: 1fr 2fr; */
+    grid-template-rows: 100px 30px 480px 20px;
+    height: 100vh;
+    row-gap: 5px; 
+    
+
+}
+header{
+    /* background-color: whitesmoke; */
+    background-color:rgb(226, 236, 233); 
+    display: inline;  
+    grid-column: 1 / span 2; 
+}
+
+.posicion-titulo{
+    /* position: absolute; */
+    display: inline; 
+    /* padding:-10%;  */
+    /* top: 200px;  */
+    text-align:center;
+    font-family:Baskerville old ;
+    font-size: 25px;
+    font-weight: face; 
+    color:#46586c;
+
+} 
+
+/* .posicion-titulo2{
+    
+    padding: 0.625rem 35.625rem;
+
+} */
+
+.logo{
+    position: absolute;
+    top:150;  
+    padding: 5px;
+}
+
+/* zona de nav donde van los enlaces */
+nav{
+    background-color: #a0a3aa;
+    grid-column: 1 / 3; 
+    text-align:right
+}
+.nav-enlace{
+    display:inline-block;
+    background: rgb(102, 102, 211);   
+    color:#fff ; 
+    padding: 0.3125rem 1.875rem;
+    text-decoration: none;
+    font-family:arial Rounded MT;
+    font-size: 16px;
+    font-weight: bold; 
+
+    
+}
+
+/*fin*/
+
+
+ main{
+     background-color:white; 
+     grid-column: 1 / 3;  
+
+}  
+
+footer{
+    
+    background: #a0a3aa;
+    color:white;
+    grid-column: 1 / 3;  
+    text-align:center;
+    font-family:arial Rounded MT;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+.slider{
+    width: 95;
+    margin:auto;
+    overflow: hidden;
+}  
+.slider ul{
+    /* display flex coloca una imagen al lado de la otra */
+    display: flex;  
+    padding:0;
+    width: 600%; /*esta opcion hace que la imagen de turno ocupe toda la pantalalla */
+    height: 10%; 
+    animation: cambio1 15s infinite alternate;
+   
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}  
+
+/* todas las imagenes del mismo tamaño */
+/* oculta las imagenes de slider */
+.slider img {
+    width: 100%; /* ancho de la imagen al 100%*/
+    height: 450px;/*largo de la imagen*/
+} 
+/* fin */
+
+/* slider */
+@keyframes cambio1 {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+}
+/* fin */
